@@ -10,8 +10,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap Library CSS CDN go here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- Boostrap Library JS CDN  go here -->
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
     <!-- Other libraries go here -->
 
     <!-- Link to styles of your own -->
@@ -26,6 +30,86 @@
     <!------------------------------>
     <!-- Stuff for body goes here -->
 
+    <!-- Navbar -->
+
+    <nav class="navbar bg-success navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/elmo.jpg" height="36"> 
+                Best Hikes
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <!-- Hero -->
+
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="./images/BBY01.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Lorem ipsum dolor sit.</h1>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum quidem eum delectus hic quae praesentium facere totam vero eligendi at, perspiciatis natus qui excepturi voluptatem commodi ut! Aut, similique debitis?</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button type="button" class="btn btn-success btn-lg px-4 me-md-2">Primary</button>
+                  <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card Groups -->
+
+        <div class="container">
+            <div class="card-group">
+                <div class="card">
+                <img src="images/hike1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Beautiful hikes near you!</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quia eaque corporis itaque, nulla, repellat alias velit, dolores veniam distinctio enim! Dolore aliquam doloribus esse distinctio vitae! Quas, molestias aliquid!</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+                </div>
+                <div class="card">
+                <img src="images/hike2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Check out cool hikes here!</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptate repellendus eum quos ipsam voluptatibus nemo cupiditate aliquam porro ratione ex architecto iusto pariatur dolorum quis, libero ut quam est?</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+                </div>
+                <div class="card">
+                <img src="images/hike3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">This is the best hike.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est voluptates praesentium a itaque cumque id veritatis dolorum quae numquam atque et officia aspernatur odit minima voluptatum nostrum, consequatur impedit officiis.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
 
     <!---------------------------------------------->
     <!-- Your own JavaScript functions go here    -->
